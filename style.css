@@ -1,0 +1,156 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 1em 15%;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.head-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 1em 15% 7em;
+    gap: 2em;
+}
+
+.head-content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.sub-title {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    border-radius: 8px;
+    background: #3886f3;
+    padding: 8px;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.head-button {
+    border-color: #e5e7eb;
+    width: fit-content;
+    padding: 10px 20px;
+}
+
+.title-img {
+    width: 600px;
+    height: auto;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 32px 0px;    
+}
+
+.mid-title {
+    font-size: 36px;
+    font-weight: 900px;
+    color: #1F2937;
+}
+
+.information {
+    display: flex;
+    margin: 32px;
+}
+
+.fact {
+    padding: 32px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.quote-content {
+    display: flex;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+    font-weight: lighter;
+}
+
+.author {
+    margin-left: auto;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ad {
+    display:flex;
+    background-color: #3886f3;
+    margin: 60px 120px;
+    padding: 40px;
+    justify-content: space-between;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.ad-text {
+    font-size: 24px;
+    color: #e5e7eb;
+    font-weight: bold;
+}
+
+.ad-info {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.ad-button {
+    border-color: #e5e7eb;
+    width: fit-content;
+    padding: 10px 20px;
+}
+
+.footer {
+    text-align: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 2% 0;
+}
